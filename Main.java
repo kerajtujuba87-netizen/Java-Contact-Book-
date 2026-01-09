@@ -21,7 +21,7 @@ class Contact {
     public void setEmail(String email) { this.email = email; }
 }
 
-abstract class ContactOperations {
+ class ContactOperations {
     abstract void addContact();
     abstract void displayContacts();
     abstract void searchContact();
@@ -167,4 +167,5 @@ public class Main {
         } while (choice != 6);
     }
 }
+
 
